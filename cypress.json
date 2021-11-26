@@ -1,0 +1,23 @@
+{
+    "baseUrl": "https://www.freepik.com/",
+    "testFiles": "**/*.feature",
+    "ignoreTestFiles": ["*.js", "*.ts", "*.md"],
+    "env": {
+      
+    },
+    "disableRecords": true,
+    "viewportWidth": 1524,
+    "viewportHeight": 968,
+    "numTestsKeptInMemory": 10,
+    "chromeWebSecurity": false,
+    "video": false,
+    "requestTimeout": 10000,
+    "firefoxGcInterval": {
+        "runMode": 1,
+        "openMode": null
+      },
+    "retries": {
+      "runMode": 2,
+      "openMode": 0
+    }
+}
