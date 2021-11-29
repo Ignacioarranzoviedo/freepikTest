@@ -12,7 +12,9 @@
     "test:multibrowser": "npm-run-all --parallel test:chrome test:firefox"
   },
   "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": true,
+    "nonGlobalStepDefinitions": false,
+    "commonPath": "cypress/integration/*",
+    "stepDefinitions": "cypress/integration/*",
     "cucumberJson": {
       "generate": true,
       "outputFolder": "cypress/cucumber-json",
@@ -21,7 +23,7 @@
     }
   },
   "keywords": [],
-  "author": "",
+  "author": "Ignacio Arranz",
   "license": "",
   "devDependencies": {
     "cypress": "^7.4.0",

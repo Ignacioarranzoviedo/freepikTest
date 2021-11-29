@@ -7,10 +7,6 @@ Before(() => {
   cy.restoreLocalStorage();
 });
 
-Given("A user in the Freepik site", () => {
-  cy.visit(Cypress.baseUrl);
-});
-
 Given("A user in the Log In page", () => {
   LANDINGPAGE.goToLoginPage();
 });
