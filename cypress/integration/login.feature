@@ -10,7 +10,8 @@ Feature: FReePiK Log In
     Given A user in the Log In page
     When the user fills the "<username>" input and the "<password>" input
     And the user click on Sing In button
-    #Then the user can see the welcome page
+    ##Skipping this step because the real captcha is enabled## I recommend logging in with a token 
+    #Then the user can see the welcome page 
 
     Examples:
       | username                | password    |
